@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\dev\\CryptographyAPI\\CryptographyAPI.csproj": {}
+    "C:\\dev\\CryptographyAPI\\CryptographyAPI.csproj": {}
   },
   "projects": {
-    "c:\\dev\\CryptographyAPI\\CryptographyAPI.csproj": {
+    "C:\\dev\\CryptographyAPI\\CryptographyAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\dev\\CryptographyAPI\\CryptographyAPI.csproj",
+        "projectUniqueName": "C:\\dev\\CryptographyAPI\\CryptographyAPI.csproj",
         "projectName": "CryptographyAPI",
-        "projectPath": "c:\\dev\\CryptographyAPI\\CryptographyAPI.csproj",
+        "projectPath": "C:\\dev\\CryptographyAPI\\CryptographyAPI.csproj",
         "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\CryptographyAPI\\obj\\",
+        "outputPath": "C:\\dev\\CryptographyAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,6 +48,16 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

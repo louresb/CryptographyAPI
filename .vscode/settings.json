@@ -1,3 +1,7 @@
 {
-    "dotnet.defaultSolution": "CryptographyAPI.sln"
+    "dotnet.defaultSolution": "CryptographyAPI.sln",
+    "cSpell.words": [
+        "decryptor",
+        "encryptor"
+    ]
 }
