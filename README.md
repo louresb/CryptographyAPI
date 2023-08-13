@@ -1,9 +1,9 @@
 # CryptographyAPI
 
 [![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/louresb/CryptographyAPI/blob/main/LICENSE)
-![Development Status Badge](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Development Status Badge](https://img.shields.io/badge/Status-Completed-green)
 
-This API is developed as a solution for a [challenge](https://github.com/backend-br/desafios) offered by [Back-End Brasil](https://github.com/backend-br),  the official community hub for Brazilian backenders.
+This API is developed as a solution for a [challenge](https://github.com/backend-br/desafios) offered by [Back-End Brasil](https://github.com/backend-br), the official community hub for Brazilian backenders.
 
 ## Technologies Used
 
@@ -11,7 +11,7 @@ This API is developed as a solution for a [challenge](https://github.com/backend
 - .NET
 - ASP.NET
 - Entity Framework Core
-- Micrsoft SQLServer
+- Microsoft SQL Server
 
 # Challenge description
 
@@ -39,7 +39,68 @@ The structure of the corresponding entity would be as follows:
 ## Requirements
 
 - Implement a simple CRUD considering the aforementioned fields as sensitive.
-- Use the encryption algorithm of your preference. 
+- Use the encryption algorithm of your preference.
+
+## Screenshots
+
+<div align="center">
+
+### Post new user
+![Post](https://github.com/louresb/CryptographyAPI/assets/103293696/3706150b-543a-4f6b-a391-8568c35e2672) ![Post 200](https://github.com/louresb/CryptographyAPI/assets/103293696/cc769d26-0c25-4492-a34b-56bbe15ec291)
+
+### "userDocument" and "creditCardToken" encrypted at the database
+![Db encrypted](https://github.com/louresb/CryptographyAPI/assets/103293696/15ad45a8-d973-4d09-bffb-ee509837dc69) 
+
+### Get decrypted data from database
+![Get](https://github.com/louresb/CryptographyAPI/assets/103293696/803e27b3-a0b2-4f13-94aa-5d3e493ee74a)
+
+</div>
+
+## Installation
+
+1. Clone the repository: 
+
+```powershell
+
+git clone https://github.com/louresb/CryptographyAPI
+
+```
+
+2. Navigate to the project directory:
+
+```powershell
+
+cd CryptographyAPI
+
+```
+
+3. Build the project:
+
+```powershell
+
+dotnet build
+
+```
+
+4. Make sure to have SQL Server 
+
+```powershell
+
+dotnet ef database update
+
+```
+
+5. Run the project:
+
+```powershell
+
+dotnet run
+
+```
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
 ## License
 [MIT License](https://github.com/louresb/CryptographyAPI/blob/main/LICENSE) © [Bruno Loures](https://github.com/louresb)
